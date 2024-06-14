@@ -8,35 +8,35 @@
 <body>
     <script>    
         let myNumber = 10;
-        let mystring = "Hello, Javascript!"
+        let myString = "Hello, JavaScript!";
        
-        console.log (myNumber);
-        console.log (mystring);
+        console.log(myNumber);
+        console.log(myString);
 
-        for ( let i = 0; i <= 10; i++)
-        console.log(i);
+        for (let i = 0; i <= 10; i++) {
+            console.log(i);
+        }
 
-        for (let i = 1; i <= 5; i++){
-            let multiple = 3 *i;
-            console.log(multiple)
-    }
+        for (let i = 1; i <= 5; i++) {
+            let multiple = 3 * i;
+            console.log(multiple);
+        }
 
         function addNumbers(num1, num2) {
-            return num1 + num2
-            let result = addNumbers(59,90)
-            console.log(result)
-    }
+            let result = num1 + num2;
+            return result;
+        }
+        
+        let sumResult = addNumbers(59, 90);
+        console.log(sumResult);
 
+        function multNumbers(num1, num2) {
+            let result = num1 * num2;
+            return result;
+        }
 
-    function multNumb(num1, num2) {
-        return num1 * num2
-        let result = multNumb(78,94)
-        console.log(resultmult)
-    }
-
-
-
-
+        let multResult = multNumbers(78, 94);
+        console.log(multResult);
     </script>
 </body>
 </html>
